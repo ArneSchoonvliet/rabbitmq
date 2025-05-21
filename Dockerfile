@@ -1,2 +1,2 @@
-FROM rabbitmq:4.0.3-management
+FROM rabbitmq:4.1.0-management
 RUN rabbitmq-plugins enable --offline rabbitmq_shovel && rabbitmq-plugins enable --offline rabbitmq_shovel_management
